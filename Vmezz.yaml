@@ -1,0 +1,17 @@
+proxies:
+  - name: FAST
+    server: 104.17.3.81
+    port: 443
+    type: vmess
+    uuid: 070634da-acde-4d67-9923-2ba1c15f1ab8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vmess-herza5.whossh.my.id
+    network: ws
+    ws-opts:
+      path: /sweet
+      headers:
+        Host: vmess-herza5.whossh.my.id
+    udp: true
